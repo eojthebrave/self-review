@@ -11,7 +11,7 @@ import type {
   GuideLoadPayload,
   OutputPathInfo,
   ReviewState,
-} from '../shared/types';
+} from './types';
 
 // The only mock this module needs: `expandContext` shells out to git.
 // Nothing here mocks `electron` — the extracted handlers never touch it.
